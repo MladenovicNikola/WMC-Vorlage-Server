@@ -1,0 +1,15 @@
+{
+  "exclude": ["public"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "preferTsExts": true
+  }
+}
